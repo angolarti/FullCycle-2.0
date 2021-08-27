@@ -31,3 +31,8 @@ export GPG_TTY=$(tty)
 git config --global commit.gpgSign true
 git config --global tag.gpgSign true
 ```
+
+- Verificar se ocommit foi assinado
+```bash
+git log --show-signature -1
+```
