@@ -26,3 +26,8 @@ git flow feature start feature_name
 ```bash
 git flow feature finish feature_name
 ```
+
+### Criar uma release
+```bash
+git flow release start 0.1.0
+```
